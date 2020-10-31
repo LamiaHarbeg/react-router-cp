@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.movie-trailer {
+  margin: auto;
+  padding-top: 30px;
+}
+.main-container h3 {
+  font-style: italic;
+  color: #2e86de;
+}
+p {
+  color: black;
+  align-self: center;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  background-color: #2e86de;
+}
+
+button:hover {
+  background-color: white;
+  color: rgba(17, 15, 36, 1);
+  border: 1px solid rgba(17, 15, 36, 1);
+  padding: 9px 10px;
+  cursor: pointer;
+}
